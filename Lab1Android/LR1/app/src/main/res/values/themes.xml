@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LR1V" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основний зелений колір -->
+        <item name="colorPrimary">@color/green_500</item>
+        <item name="colorPrimaryVariant">@color/green_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_200</item>
+        <item name="colorControlActivated">@color/green_500</item>
+        <item name="colorButtonNormal">@color/green_500</item>
+        <item name="android:colorAccent">@color/green_500</item>
+    </style>
+
+    <style name="Theme.LR1V" parent="Base.Theme.LR1V" />
+</resources>

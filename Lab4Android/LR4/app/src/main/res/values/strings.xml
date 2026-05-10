@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GreenPlay</string>
+    <string name="library">Медіатека</string>
+    <string name="online_media">Онлайн-медіа</string>
+    <string name="controls">Керування</string>
+    <string name="open_audio">Відкрити аудіо</string>
+    <string name="open_video">Відкрити відео</string>
+    <string name="open_from_url">Відкрити за посиланням</string>
+    <string name="play">Відтворити</string>
+    <string name="pause">Пауза</string>
+    <string name="stop">Зупинити</string>
+    <string name="nothing_loaded">Нічого не завантажено</string>
+    <string name="player_title">Плеєр</string>
+</resources>

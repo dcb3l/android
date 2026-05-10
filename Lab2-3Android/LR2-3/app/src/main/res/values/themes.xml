@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LR2V" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Основний зелений колір -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="Theme.LR2V" parent="Base.Theme.LR2V" />
+</resources>
