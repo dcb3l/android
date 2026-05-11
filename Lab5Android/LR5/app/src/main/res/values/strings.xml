@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ЛР5V</string>
+    <string name="title">Вимірювач G-сили</string>
+    <string name="sensor_check">Перевірка сенсора...</string>
+    <string name="sensor_unavailable">Акселерометр недоступний на цьому пристрої</string>
+    <string name="sensor_available">Акселерометр доступний</string>
+    <string name="raw_data">Сирі дані сенсора</string>
+    <string name="processed_data">Оброблені дані</string>
+    <string name="acceleration">Прискорення: %1$.2f м/с²</string>
+    <string name="gforce">G-сила: %1$.2f g</string>
+    <string name="peak">Пік: %1$.2f g</string>
+    <string name="motion_wait">Очікування даних...</string>
+    <string name="motion_stable">Стабільно</string>
+    <string name="motion_moderate">Помірний рух</string>
+    <string name="motion_strong">Сильний рух</string>
+    <string name="motion_extreme">Екстремальний рух</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+		<TextView
+			android:id="@+id/tvTitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Вимірювач G-сили"
+			android:textSize="28sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="12dp" />
+
+		<TextView
+			android:id="@+id/tvSensorStatus"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Перевірка сенсора..."
+			android:textSize="16sp"
+			android:layout_marginBottom="20dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Сирі дані сенсора"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="8dp" />
+
+		<TextView
+			android:id="@+id/tvX"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="X: 0.00"
+			android:textSize="18sp"
+			android:layout_marginBottom="6dp" />
+
+		<TextView
+			android:id="@+id/tvY"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Y: 0.00"
+			android:textSize="18sp"
+			android:layout_marginBottom="6dp" />
+
+		<TextView
+			android:id="@+id/tvZ"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Z: 0.00"
+			android:textSize="18sp"
+			android:layout_marginBottom="20dp" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Оброблені дані"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:layout_marginBottom="8dp" />
+
+		<TextView
+			android:id="@+id/tvAcceleration"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Прискорення: 0.00 м/с²"
+			android:textSize="18sp"
+			android:layout_marginBottom="6dp" />
+
+		<TextView
+			android:id="@+id/tvGForce"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="G-сила: 0.00 g"
+			android:textSize="18sp"
+			android:layout_marginBottom="6dp" />
+
+		<TextView
+			android:id="@+id/tvPeakValue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Пік: 0.00 g"
+			android:textSize="18sp"
+			android:layout_marginBottom="12dp" />
+
+        <ProgressBar
+            android:id="@+id/progressGForce"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="400"
+            android:progress="0"
+            android:layout_marginBottom="16dp" />
+
+		<TextView
+			android:id="@+id/tvMotionStatus"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Очікування даних..."
+			android:textSize="20sp"
+			android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
